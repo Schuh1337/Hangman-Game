@@ -79,7 +79,6 @@ def hangman():
     word_to_guess = choose_word()
     guessed_letters = []
     attempts = 6
-    print("Welcome to Hangman!")
     while attempts > 0:
         clear_screen()
         display_hangman(attempts)
