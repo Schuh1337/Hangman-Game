@@ -102,13 +102,13 @@ def hangman():
         if "_" not in display_word(word_to_guess, guessed_letters):
             clear_screen()
             display_hangman(attempts)
-            print("Congratulations! You've guessed the word:", word_to_guess)
+            print("/ Congratulations! You've guessed the word:", word_to_guess)
             break
     if attempts == 0:
         clear_screen()
         display_hangman(attempts)
-        print("You're out of attempts. The word was:", word_to_guess)
-    play_again = input("Play again? (y/n): ").lower()
+        print("/ You're out of attempts. The word was:", word_to_guess)
+    play_again = input("/ Play again? (y/n): ").lower()
     if play_again == "y":
         hangman()
 hangman()
