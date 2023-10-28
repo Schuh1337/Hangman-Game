@@ -1,6 +1,7 @@
 import random
 import os
 import time
+import sys
 words = [
     "elephant", "sunshine", "basketball", "pineapple", "rainbow", "butterfly", 
     "meditation", "telescope", "strawberry", "zucchini", "adventure", "waterfall", 
@@ -276,7 +277,12 @@ def hangman():
         clear_screen()
         display_hangman(attempts)
         print("/ You're out of attempts. The word was:", word_to_guess)
-    play_again = input("/ Play again? (y/n): ").lower()
-    if play_again == "y":
-        hangman()
+    while True:
+        play_again = input("/ Play again? (y/n): ").lower()
+        if play_again == "y":
+            hangman()
+        elif play_again == "n":
+            sys.exit(1)
+        else:
+            print("/ Please enter 'y' to play again or 'n' to exit.")
 hangman()
