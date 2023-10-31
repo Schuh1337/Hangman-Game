@@ -1,3 +1,3 @@
 # Python-Hangman-Game
 
-why is this actually hella fun tho
+why is this actually hella fun wtf
