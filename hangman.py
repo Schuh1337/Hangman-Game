@@ -1,7 +1,4 @@
-import random
-import os
-import time
-import sys
+import random, os, time, sys
 words = ["elephant", "sunshine", "basketball", "pineapple", "rainbow", "butterfly", 
     "meditation", "telescope", "strawberry", "zucchini", "adventure", "waterfall", 
     "universe", "celebration", "octopus", "firefly", "reflection", "labyrinth", 
