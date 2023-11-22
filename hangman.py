@@ -2,8 +2,7 @@ import random
 import os
 import time
 import sys
-words = [
-    "elephant", "sunshine", "basketball", "pineapple", "rainbow", "butterfly", 
+words = ["elephant", "sunshine", "basketball", "pineapple", "rainbow", "butterfly", 
     "meditation", "telescope", "strawberry", "zucchini", "adventure", "waterfall", 
     "universe", "celebration", "octopus", "firefly", "reflection", "labyrinth", 
     "marshmallow", "symphony", "midnight", "hummingbird", "skyscraper", "broccoli", 
